@@ -1,0 +1,252 @@
+/******************card-section******************/
+.card-sec {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  min-height: calc(100vh - 367px);
+}
+
+.card-sec .title {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-sec .title h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ba9038;
+  font-family: "SendFlowers";
+}
+
+.card-sec .title p {
+  font-size: 15px;
+  color: #242424;
+}
+
+.card-sec .col-md-12,
+.col-md-3,
+.col-md-9,
+.col-md-6,
+.col-md-4,
+.col-md-8 {
+  padding-right: 12px;
+  padding-left: 0;
+}
+
+.card-sec .card-bg-img {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  width: 100%;
+}
+
+.link-card {
+  padding: 10px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin: 4px 0;
+  box-shadow: 4px 4px 8px #e1e1e1;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  height: 100%;
+  background-size: cover;
+}
+
+.link-card:hover {
+  box-shadow: 2px 2px 9px #a29999;
+  /* box-shadow: 4px 4px 10px #e1e1e1;*/
+  transform: scale(1.01);
+}
+
+.link-card img {
+  width: 80px;
+}
+
+.link-card .card-icon {
+  background-color: rgb(242 242 242);
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  margin: 0 30px;
+  box-shadow: 2px 2px 8px #a0a0a0;
+}
+
+.link-card p {
+  font-size: 28px;
+  margin: 20px;
+  flex-grow: 1;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card-rem {
+  background-image: url("./../img/Image\ Place\ Holder1.png");
+  min-height: 820px;
+}
+
+.card-re {
+  background-image: url("./../img/Image\ Place\ Holder3.png");
+  min-height: 300px;
+}
+
+.card-re1 {
+  background-image: url("./../img/Image\ Place\ Holder3.png");
+  min-height: 200px;
+}
+
+.card-ser {
+  background-image: url("./../img/Image\ Place\ Holder2.png");
+  min-height: 300px;
+}
+
+.card-car {
+  background-image: url("./../img/Image\ Place\ Holder4.png");
+  min-height: 300px;
+}
+
+.card-ser1 {
+  background-image: url("./../img/Image\ Place\ Holder6.png");
+  min-height: 200px;
+}
+
+.card-pr {
+  background-image: url("./../img/Image\ Place\ Holder7.png");
+  min-height: 300px;
+}
+
+.card-we {
+  background-image: url("../images/index/gradiants/5.png");
+  min-height: 200px;
+}
+
+.card-bl {
+  background-image: url("../images/index/gradiants/3.png");
+  min-height: 200px;
+}
+
+.card-cu {
+  background-image: url("../images/index/gradiants/8.png");
+  min-height: 200px;
+}
+
+.card-ne {
+  background-image: url("../images/index/gradiants/10.png");
+  min-height: 200px;
+}
+
+.card-tu {
+  background-image: url("./../img/Image\ Place\ Holder8.png");
+  min-height: 300px;
+}
+
+.card-rem p,
+.card-tu p {
+  margin-bottom: -65px;
+  margin-top: 65px;
+}
+
+.card-rem .card-icon,
+.card-tu .card-icon {
+  margin-bottom: 50px;
+}
+
+.card-ser .card-icon,
+.card-ser .card-icon,
+.card-pr .card-icon,
+.card-cu .card-icon,
+.card-bl .card-icon,
+.card-we .card-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+.card-ser p,
+.card-ser p,
+.card-pr p,
+.card-cu p,
+.card-bl p,
+.card-we p {
+  margin: 0;
+  font-size: 28px;
+}
+
+.card-ser img,
+.card-ser img,
+.card-pr img,
+.card-cu img,
+.card-bl img,
+.card-we img {
+  width: 60px;
+  max-height: 65px;
+}
+
+@media (max-width: 991px) {
+  /* .card-sec{
+    padding: 64px 10px;
+  } */
+  .card-ne p {
+    margin: 0;
+  }
+
+  .link-card p {
+    font-size: 20px;
+  }
+
+  .card-sec .title {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-sec .col-md-6,
+  .card-sec .col-md-4 {
+    margin-bottom: 10px;
+  }
+  .card-sec .title h1 {
+    font-size: 30px;
+  }
+  .card-rem {
+    min-height: 200px;
+  }
+  .card-car {
+    min-height: 200px;
+  }
+  .card-re {
+    min-height: 200px;
+  }
+  .card-ser {
+    min-height: 200px;
+  }
+  .card-pr {
+    min-height: 200px;
+  }
+  .card-tu {
+    min-height: 200px;
+  }
+  .card-sec .col-md-12,
+  .col-md-3,
+  .col-md-9,
+  .col-md-6,
+  .col-md-4,
+  .col-md-8 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .card-sec .row {
+    margin: 0px;
+  }
+}

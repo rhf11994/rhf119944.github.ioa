@@ -1,0 +1,115 @@
+
+.about {
+  /* padding: 40px; */
+  position: relative;
+  text-align: center;
+
+}
+
+.about {
+  /* width: 70%;
+  margin: auto; */
+  /* margin-bottom: 20px; */
+}
+
+.about h1 {
+  font-size: 50px;
+    font-weight: 500;
+  color: #ba9038;
+  font-family: 'SendFlowers';
+}
+.about .title  {
+  width: 70%;
+  margin: auto;
+
+}
+.about .title p {
+  font-size: 15px;
+  color: #242424;
+
+}
+
+.about .title p {
+  font-size: 15px;
+
+}
+
+
+.about .header-img img {
+  margin: 30px 0px;
+  max-height: 400px;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.about .choosing-Us {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+/* .about .choosing-Us .icon-img img{
+object-fit: contain;
+width: 40px;
+height: 40px;
+} */
+.about .choosing-Us img {
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+
+
+.about .choosing-Us {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.about .choosing-Us h6 {
+  font-weight: 400;
+  font-size: 19px;
+  margin: 12px 0;
+}
+
+.about .choosing-Us p {
+  font-size: 14px;
+  color: #A7A7A7;
+}
+
+
+@media (max-width: 767px) {
+  /* .about  {
+    padding: 10px;
+  } */
+  .about .header-img img {
+    height: 300px;
+ 
+}
+.about .title  {
+  width:90%;
+  margin: auto;
+
+}
+  .about h1 {
+      font-size: 30px;
+      font-weight: 500;
+      color: #ba9038;
+  }
+
+  .about .choosing-Us {
+      margin: 0px;
+  }
+
+  .about .choosing-Us {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+}

@@ -1,0 +1,107 @@
+body {
+  direction: rtl;
+}
+.main-header .drop-down .fa-chevron-down {
+  margin: 10px;
+}
+
+.main-header .drop-down .fa-chevron-down {
+  margin-right: 10px;
+}
+.adv-sec .adv-sec-title {
+ 
+  direction: rtl;
+}
+.footer-link ul li a{
+  text-align: right;
+}
+.footer-link h6{
+  text-align: right;
+}
+
+.footer-link-contact h6{
+  text-align: right;
+}
+
+.footer-link-contact ul li p{
+  text-align: right;
+}
+.footer-link-contact ul li p img{
+  right: 0;
+  margin: 0;
+}
+.footer-link-contact ul li p a{
+  margin: 0px 25px;
+}
+.footer-link-contact ul li p span{
+  margin: 0px 25px;
+}
+.footer-widget h5{
+  text-align: right;
+}
+.footer-widget p{
+  text-align: right;
+}
+
+.footer-link-contact h3{
+  text-align: right;
+}
+.footer-link-contact p{
+  text-align: right;
+}
+/* Fabric */
+
+.maptop .container{
+  direction: rtl;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.bridal-content .aside .aside-cate h6{
+  text-align: right;
+}
+.bridal-content .aside .aside-cate ul li a{
+  text-align: right;
+}
+.bridal-content .aside .aside-cate ul li a:hover {
+  color: #997f47;
+  border-color: #997f47;
+  padding-right: 5px;
+}
+
+.bridal-content .aside .aside-tags h6{
+  text-align: right;
+}
+
+.card-sec .col-md-12, .col-md-3, .col-md-9, .col-md-6{
+  padding-left: 12px;
+  padding-right: 0;
+}
+/* contant */
+.contact{
+  text-align: right;
+}
+.contact-image .contact-info ul li p {
+  margin-right: 40px;
+}
+.contact-image .contact-info ul li p i {
+  right: 30px;
+}
+.contactmap .pers-info .pers-info-list ul li p{
+  text-align: right;
+  margin-right: 70px;
+  margin-left: 0px;
+}
+.contactmap .pers-info .pers-info-list ul li p i{
+  right: 42px;
+  margin-left: 4px; 
+  margin-right: 0px;
+}
+
+.contactmap .pers-info {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
