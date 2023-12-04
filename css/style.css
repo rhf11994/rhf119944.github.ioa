@@ -128,11 +128,17 @@
     border: 0;
 }
 
-.card  img,video{
+.card  img{
     object-fit: cover;
     height: 300px;
     border-radius: 10px;
     opacity: 0.6;
+}
+
+.card  video{
+    object-fit: cover;
+    height: 300px;
+    border-radius: 10px;
 }
 /* gallary end */
 @media (max-width: 991.98px) {
@@ -393,7 +399,7 @@
     color: var(--primary);
 }
 
-.footer .btn.btn-link {
+.footer .btn-link {
     display: block;
     margin-bottom: 5px;
     padding: 0;
@@ -405,7 +411,7 @@
     transition: .3s;
 }
 
-.footer .btn.btn-link::before {
+.footer .btn-link::before {
     position: relative;
     content: "\f105";
     font-family: "Font Awesome 5 Free";
@@ -413,8 +419,9 @@
     margin-right: 10px;
 }
 
-.footer .btn.btn-link:hover {
-    letter-spacing: 1px;
+
+.footer .btn-link:hover {
+    /* letter-spacing: 1px; */
     box-shadow: none;
 }
 
